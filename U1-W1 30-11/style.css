@@ -1,0 +1,58 @@
+body {
+  font-family: "Solway", serif;
+}
+
+header {
+  width: 100%;
+  text-align: center;
+}
+.intestazione img {
+  width: 10%;
+}
+.intestazione p {
+  border-top: 0.2;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-top-style: inset;
+  border-top-color: palegoldenrod;
+  background-color: antiquewhite;
+  color: rgb(2, 63, 2);
+}
+
+main {
+  width: 50%;
+  margin: auto;
+}
+div.descrizione h1 {
+  text-align: center;
+}
+div.descrizione img {
+  border-radius: 2%;
+  width: 100%;
+}
+.immagine {
+  text-align: center;
+  color: grey;
+}
+.info {
+  border-left-color: greenyellow;
+  border-left-style: solid;
+  padding: 7px;
+  border-left-width: 2px;
+  color: orangered;
+}
+.info a {
+  color: teal;
+}
+hr {
+  width: 100%;
+  color: aqua;
+}
+
+footer {
+  width: 50%;
+  margin: auto;
+}
+footer a {
+  color: teal;
+}
