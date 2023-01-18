@@ -1,0 +1,22 @@
+@import "variabiles";
+@import "button";
+
+body {
+  background-color: chartreuse;
+  header {
+    background-color: cyan;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+  }
+  div {
+    display: flex;
+    justify-content: center;
+    img {
+      margin: 100px;
+    }
+    .ruota {
+      transform: scale(1.2) rotate(40deg);
+    }
+  }
+}

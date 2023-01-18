@@ -1,0 +1,40 @@
+.button {
+  padding: 10px 20px;
+  border: 1px solid black;
+}
+
+.btn-primary {
+  background-color: red;
+}
+
+.btn-secondary {
+  background-color: purple;
+}
+
+.btn-primary:hover {
+  background-color: chartreuse;
+}
+
+.btn-secondary:hover {
+  background-color: chartreuse;
+}
+
+body {
+  background-color: chartreuse;
+}
+body header {
+  background-color: cyan;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+body div {
+  display: flex;
+  justify-content: center;
+}
+body div img {
+  margin: 100px;
+}
+body div .ruota {
+  transform: scale(1.2) rotate(40deg);
+}/*# sourceMappingURL=esercizio.css.map */
