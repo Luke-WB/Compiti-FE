@@ -1,0 +1,40 @@
+body {
+  font-family: "Orbitron", sans-serif;
+}
+body .navbar {
+  padding: 20px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  background-color: chartreuse;
+}
+body main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px 30px;
+  background-color: rgb(159, 248, 248);
+}
+body main:hover {
+  background-color: aqua;
+}
+body main img {
+  width: 40%;
+  border: 1px solid black;
+}
+body main .card {
+  margin-top: 20px;
+  border: 1px solid black;
+}
+body main .card:hover {
+  transform: scale(1.2);
+  z-index: 1;
+}
+body main .card img {
+  border-bottom: 1px solid black;
+}
+body main .card a {
+  padding: 0;
+  margin-right: 50px;
+}/*# sourceMappingURL=esercizio.css.map */

@@ -1,0 +1,43 @@
+@mixin baseMain($mainColor) {
+  padding: 20px 30px;
+  background-color: $mainColor;
+
+  &:hover {
+    background-color: aqua;
+  }
+}
+body {
+  font-family: "Orbitron", sans-serif;
+  .navbar {
+    padding: 20px;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    background-color: chartreuse;
+  }
+  main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    @include baseMain(rgb(159, 248, 248));
+    img {
+      width: 40%;
+      border: 1px solid black;
+    }
+    .card {
+      margin-top: 20px;
+      border: 1px solid black;
+      &:hover {
+        transform: scale(1.2);
+        z-index: 1;
+      }
+      img {
+        border-bottom: 1px solid black;
+      }
+      a {
+        padding: 0;
+        margin-right: 50px;
+      }
+    }
+  }
+}
