@@ -1,0 +1,44 @@
+[
+  {
+    "name": "Paolo",
+    "surname": "di marzio",
+    "email": "padima@gmail.com",
+    "phone": 3832225587
+  },
+  {
+    "name": "Giovanni",
+    "surname": "Rossi",
+    "email": "rossi@gmail.com",
+    "phone": 3532225555
+  },
+  {
+    "name": "Alessio",
+    "surname": "Verdi",
+    "email": "verdi@gmail.com",
+    "phone": 3342225588
+  },
+  {
+    "name": "Francesco",
+    "surname": "Azzurro",
+    "email": "azzurro@gmail.com",
+    "phone": 3532225577
+  },
+  {
+    "name": "Giancarlo",
+    "surname": "Rosa",
+    "email": "rosa@gmail.com",
+    "phone": 3932225599
+  },
+  {
+    "name": "Pasquale",
+    "surname": "di natale",
+    "email": "natale@gmail.com",
+    "phone": 363222522
+  },
+  {
+    "name": "Ronaldo",
+    "surname": "di marzio",
+    "email": "rodima@gmail.com",
+    "phone": 3832225510
+  }
+]
