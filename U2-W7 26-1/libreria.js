@@ -12,7 +12,7 @@ const libreria = async function () {
           div.innerHTML +
           `
             <div class="col-3 my-4 d-xl-flex justify-content-center carta" >
-                <div class="card" style="width: 18rem; border: aqua solid 2px">
+                <div class="card" style="width: 18rem">
                     <img src=${libro.img} class="card-img-top" alt="copertina">
                     <div class="card-body d-flex flex-column justify-content-between">
                         <h5 class="card-title">${libro.title}</h5>
@@ -33,7 +33,6 @@ const libreria = async function () {
 
 libreria();
 
-const skippa = (e) => {
-  let carta = document.querySelector(".carta");
-  carta.remove();
+const skippa = (event) => {
+  event.target.parentElement.parentElement.parentElement.remove();
 };
